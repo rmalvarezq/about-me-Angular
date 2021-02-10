@@ -1,0 +1,34 @@
+<div class="container">
+    <p id="para">Cualquier texto acá</p>
+    <button (click)="changeColor('blue')">Azul</button>
+    <button (click)="changeColor('red')">Rojo</button>
+</div>
+
+<body class="red" id="diferentColor">
+
+    <div class="item-container">
+        <div class="img-container">
+            <img src="../../../assets/img1.jpg" alt="Product image">
+            <img src="../../../assets/img2.jpg" alt="Product image">
+            <img src="../../../assets/img3.jpg" alt="Product image">
+            <img src="../../../assets/img4.jpg" alt="Product image">
+        </div>
+
+        <div class="info">
+            <div class="colors">
+                <button (click)="changeColorJS('yellow')" id="yellow"></button>
+                <button (click)="changeColorJS('blue')" id="blue"></button>
+                <button  (click)="changeColorJS('green')" id="green"></button>
+                <button (click)="changeColorJS('red')" id="red"></button>
+            </div>
+            <p class="name">Adidas Originals</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Maiores laudantium sapiente
+                asperiores sint magnam, expedita nihil rem explicabo et sunt.</p>
+            <div class="cart">
+                <p class="price">24 $</p>
+                <button class="action">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</body>
